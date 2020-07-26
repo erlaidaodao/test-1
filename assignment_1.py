@@ -3,7 +3,7 @@ correct_answer=random.randint(1,100)
 turn=1
 
 
-while turn < 11:
+while turn < 16:
    guess=int(input("input your number")) 
    if guess==correct_answer:
        print("YOU WIN! YOU GUESSED THE CORRECT NUMBER IN %s TURNS." %str(turn))
@@ -14,5 +14,5 @@ while turn < 11:
    
    turn+=1
    
-if turn > 10:
+if turn > 15:
     print("you lose")
